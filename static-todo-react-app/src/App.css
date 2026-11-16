@@ -1,0 +1,39 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 30px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.profile-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profile-container h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.profile-card {
+  background-color: white;
+  border: 3px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+  color: #2563eb;
+}
+
+.profile-card p {
+  color: #555;
+  font-size: 16px;
+}
